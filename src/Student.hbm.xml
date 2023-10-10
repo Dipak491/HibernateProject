@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+		
+		<class name = "com.test.Student" table ="Student">
+		<id name = "id" column="id">
+		
+		</id>
+		
+		<property name ="name" column="name"></property>
+		<property name= "city" column="city"></property>
+		
+		
+		</class>
+		
+		
+		</hibernate-mapping>
+	
